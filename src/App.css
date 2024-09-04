@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+.App{
+    width:473px;
+    padding: 42px 47px 42px 47px;
+    border-radius: 18px ;
+    background: linear-gradient(147.75deg, #905AD4 -0.02%, #3330A5 98.99%);
+    box-shadow: 4px 4px 12.5px 0px #000000D4;
+  }
+  .weather{
+    width: 93.46px;
+    height: 93.46px;
+    margin-top:70px;
+  }
+  h1, h2, p{
+    color:white;
+    
+
+  }
+  input{
+    margin-right:10px;
+    width: 315px;
+    border-radius: 29px;
+    border:none;
+    padding:10px 26px;
+    font-size: 24px;
+    font-weight: 400;
+    outline: none;
+  }
+  .search{
+    width: 54px;
+    height: 55px;
+    border-radius: 29px;
+    border:none;
+  }
+  .App__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h1{
+    font-size: 59px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+   
+  }
+  h2{
+   font-size:32px;
+    margin-top:10px;
+  }
+  .humidity{
+
+
+  }
+  .wind{
+
+  }
+  .App__main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .App__footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+  }
+  .info{
+    display: flex;
+    gap:20px;
+  }
+  p{
+    font-size:16px;
+    margin: 0;
+
+  }
+  .info__number{
+    font-size:24px;
+    
+  }
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin:0;
+  }
+  button:disabled{
+    opacity: 0.5;
+  }
+  
